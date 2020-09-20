@@ -1,0 +1,159 @@
+html, body {
+    margin: 0;
+}
+body{
+    background-color: #E6EBEF;
+}
+
+header {
+    background-color: #29384A;
+    color: white;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo{
+    width: 80px;
+    position: absolute;
+    top: 5px;
+    margin-left: 5%;
+}
+#menu{
+    float: right;
+    margin: 0px 5% 0px 0px;
+    list-style: none;
+}
+.item_menu {
+    float: left;
+    padding: 35px 30px 25px 30px;
+}
+.item_menu:hover{
+    background-color: #6e97f5;
+}
+.link_menu {
+    text-decoration: none;
+    color: white;
+    font-family: 'Courgette', cursive;
+}
+
+#imagem_fundo {
+    background: url("imagens/img_2.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    clear: both;
+}
+#titulo {
+    color: 	rgb(6, 99, 146);
+    padding-top: 7%;
+    font-family: 'Pacifico', cursive;
+    font-size: 300%;
+}
+#subtitulo {
+    color: 	rgb(6, 99, 146);
+    padding-top: 1%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+    font-size: 150%;
+    font-family: 'Courgette', cursive;
+}
+#botao {
+    color: 	rgb(6, 99, 146);
+    border: 1px rgb(45, 144, 184) solid;
+    padding: 1% 2%;
+    text-decoration: none;
+    border-radius: 10%;
+}
+#botao:hover{
+    background-color: rgb(201, 211, 211);
+    color: white; 
+}
+p {
+    font-family: 'Merienda', cursive;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+
+#Sobre {
+    text-align: center;
+    padding: 20px;
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+#video {
+    padding-top: 50%;
+}
+
+#Perigos {
+    padding: 20px, 0px;
+    text-align: center;
+    background-color: #C1CCD7;
+}
+.img_perigo {
+    width: 90%;
+    height: 30%;
+}
+.coluna_tres{
+    float: left;
+    padding: 0 2%;
+    position: relative;
+    width: 29%;
+}
+
+#Atitudes {
+    padding: 20px, 0px;
+    text-align: center;
+}
+.coluna_quatro {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+}
+
+#Curiosidades {
+    padding: 20px, 0px;
+    text-align: center;
+    background-color: #C1CCD7;
+}
+#img_curiosidade {
+    width: 100%;
+}
+
+#Autora {
+    padding: 20px, 0px;
+    text-align: center;
+}
+#minha_foto {
+    width: 90%;
+}
+
+footer{
+    background-color: #6e97f5;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+ 
+@media all and (max-width: 760px){
+    #menu{
+        visibility: hidden;
+    }
+    .coluna, .coluna_quatro, .coluna_tres{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px;
+        float: none;
+    }
+}
+
